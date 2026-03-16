@@ -1,0 +1,22 @@
+{
+  "name": "create-login-form-jamiejy927",
+  "version": "1.0.0",
+  "description": "In this challenge, you will be creating a login form.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/create-login-form-jamiejy927.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/create-login-form-jamiejy927/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/create-login-form-jamiejy927#readme"
+}
