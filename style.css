@@ -42,7 +42,7 @@ header {
 
 .container {
   width: 90%;
-  max-width: 1440px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -53,8 +53,8 @@ header {
 
 .left {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 2rem 1rem;
 }
 
@@ -64,6 +64,8 @@ header {
   width: 100%;
   max-width: 400px;
   border-radius: 4px;
+  align-self: flex-start;
+  padding-left: 2.5rem;
 }
 
 .loginInfo .loginTxt {
@@ -251,15 +253,15 @@ input:-webkit-autofill:active {
 }
 
 .right img {
-  width: 600px;
-  height: 850px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1100px) {
   .content {
     grid-template-columns: 1fr 1fr;
-    min-height: 90vh;
+    /* min-height: 90vh; */
   }
 
   .login {
